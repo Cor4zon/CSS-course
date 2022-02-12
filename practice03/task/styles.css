@@ -1,0 +1,27 @@
+
+
+.box {
+    background: greenyellow;
+    color: mediumblue;
+    border: black solid 5px;
+    padding: 15px;
+    margin: 25px 50px 0px 5px;
+    height: 300px;
+    width: 40%;
+    display: inline-block;
+}
+
+body, html {
+    height: 100%;
+}
+
+.box--first {
+    /*visibility: hidden;*/
+    height: 100%;
+    box-sizing: border-box;
+}
+
+div + div:hover,
+div + div:active {
+    background: red !important;
+}
