@@ -20,9 +20,51 @@ body {
     font-family: 'Rowdies', cursive;
 }
 
+.plan {
+    background: cadetblue;
+    display: inline-block;
+    text-align: center;
+    box-sizing: border-box;
+    margin: 8px;
+    padding: 16px;
+    border-radius: 8px;
+    width: 30%;
+    vertical-align: middle;
+}
+
+.plan:hover {
+    width: 34%;
+    height: 400px;
+    border: solid 5px grey;
+}
+
+.plan--highlighted {
+    border: solid darkgreen 5px;
+    background: #115858;
+    color: white;
+    box-shadow: 5px 5px 5px 5px rgba(0, 0, 0, 0.5);
+}
+
+.plan__annotation {
+    background: white;
+    color: #115858;
+    box-shadow: 3px 3px 3px 3px rgba(0, 0, 0, 0.5);
+    border-radius: 5px;
+}
+
+.plan__features {
+    list-style: none;
+}
+
+.plan__features li {
+    margin: 8px 0;
+}
+
 .selection-title {
     color: green;
     /*font-family: inherit;*/
+    text-align: center;
+
 }
 
 h1 {
