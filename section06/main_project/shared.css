@@ -1,0 +1,118 @@
+body {
+    font-family: 'Lato', sans-serif;
+    margin: 0;
+}
+
+main {
+    margin-top: 120px;
+}
+
+.main-header {
+    width: 100%;
+    background: greenyellow;
+    padding: 10px;
+    vertical-align: middle;
+    position: fixed;
+    top: 0;
+    left: 0;
+    z-index: 1;
+}
+
+.main-header > div {
+    display: inline-block;
+    vertical-align: middle;
+
+}
+
+.main-header__brand {
+    vertical-align: middle;
+    color: darkgreen;
+    text-decoration: none;      /* turn off default decoration */
+    font-size: 22px;
+    font-weight: bold;
+}
+
+
+.main-nav {
+    text-align: right;
+    display: inline-block;
+    width: calc(100% - 54px);
+}
+
+
+.nav-items {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+
+.nav-item {
+    display: inline-block;
+    margin: 0 16px;
+}
+
+.nav-item a {
+    text-decoration: none;      /* turn off default decoration */
+    color: darkgreen;
+    font-weight: bold;
+    padding: 5px;
+}
+
+.nav-items a:hover,
+.nav-items a:active {
+    color: white;
+    border-bottom: solid white 5px;
+}
+
+/* псевдоэлемент */
+/*p::first-letter {*/
+/*    font-size: 25px;*/
+/*    font-weight: bold;*/
+/*    color: red;*/
+/*}*/
+
+.nav-item--cta {
+    color: white;
+    background: red;
+    padding: 8px 16px;
+    border-radius: 8px;
+}
+
+.nav-items a:hover,
+.nav-items a:active {
+    border: none;
+    color: red;
+    background: white;
+}
+
+
+
+
+.main-footer {
+    background: #fa923f;
+    margin: 0;
+    padding: 16px;
+    /*position: fixed;*/
+    bottom: 0;
+    width: 100%;
+}
+
+.main-footer__links {
+    list-style: none;
+    text-align: center;
+}
+
+.main-footer__link {
+    display: inline-block;
+    width: 15%;
+}
+
+.main-footer__link a {
+    color: white;
+    text-decoration: none;
+}
+
+.main-footer__link a:hover,
+.main-footer__link a:active {
+    color: grey;
+}

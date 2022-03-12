@@ -1,0 +1,74 @@
+
+.background {
+    background: url("../images/background.jpeg");
+    height: 100%;
+    width: 100%;
+    position: fixed;
+    z-index: -1;
+}
+
+.plan__badge {
+    position: absolute;
+    top: 0;
+    left: 600px;
+    margin: 130px;
+    color: white;
+    background: red;
+    font-size: 18px;
+    padding: 12px;
+    z-index: 0;
+}
+
+.plan-section {
+    background: lightgreen;
+    /*margin: 8px;*/
+    margin: 16px 0;
+    padding: 16px;
+    border: 5px solid darkgreen;
+    width: 70%;
+    color: white;
+}
+
+.plan-section a {
+    text-decoration: none;
+    display: block;
+}
+
+.plan-section:hover,
+.plan-section:active {
+    border: 5px solid red;
+}
+
+#plan--plus {
+    background: aquamarine;
+}
+
+#plan--premium {
+    background: #115858;
+}
+
+.clearfix {
+    clear: both;
+}
+#plan--free {
+    background: lightgreen;
+    float: right;
+}
+
+
+.plan__annotation {
+    color: grey;
+}
+
+.plan__title {
+    color: black;
+    font-weight: bold;
+}
+
+.plan__description {
+    background: whitesmoke;
+    color: darkgreen;
+    border: 2px darkgreen solid;
+    box-sizing: border-box;
+    padding: 16px;
+}
